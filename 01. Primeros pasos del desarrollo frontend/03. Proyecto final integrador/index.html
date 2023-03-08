@@ -12,10 +12,11 @@
     
     <div class="portada">
 
-    <img class="imagenPortada" src="https://media-private.canva.com/7TDFQ/MAEJTF7TDFQ/1/s.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20230228%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20230228T092621Z&amp;X-Amz-Expires=44198&amp;X-Amz-Signature=d83bc2ac8464a1c855719871186e929fc41991c323b434c993c5c989e5aa6f16&amp;X-Amz-SignedHeaders=host&amp;response-expires=Tue%2C%2028%20Feb%202023%2021%3A42%3A59%20GMT">
+    <img class="imagenPortada" src="imagenes/portada.jpg"
+    alt="Portada">
         
         
-    <img class="imagenPerfil" src="https://media-private.canva.com/WOwEc/MAEMgpWOwEc/1/t.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20230227%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20230227T205543Z&amp;X-Amz-Expires=89001&amp;X-Amz-Signature=e460eb38f0403eeb1ec0e8c11e838f18003b6e7ae48fa9b0cc1d4bb677de8589&amp;X-Amz-SignedHeaders=host&amp;response-expires=Tue%2C%2028%20Feb%202023%2021%3A39%3A04%20GMT" 
+    <img class="imagenPerfil" src="imagenes/Foto CV.jpg" 
     alt="Imagen del postulante">
         
     <h1>Alejandro Koberstein</h1>
@@ -24,10 +25,12 @@
 
     <section id="pantalla-dividida"> 
         
-        <div class="izquierda">
+        <div class="izquierda" id="izquierda">
 
-            <h2>Perfil</h2>
-            <p>
+            <h2 class="title">Perfil</h2>
+            
+            <div class="list hidden">
+            <p >
                 Cuento con experiencia como QA
                 Tester Jr. Advance, enfocado en
                 nuevas oportunidades de crecimiento.
@@ -51,10 +54,11 @@
                 Me apasionan los retos y busco
                 superarme constantemente.
             </p>
+             </div>
     
-            <h2>Datos Personales</h2>
+            <h2 class="title">Datos Personales</h2>
             
-            <ul>
+            <ul class="list hidden" id="listaDatosPersonales">
                 <li><svg class="gitIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg> <a href="https://goo.gl/maps/E2Aw425oZ6uuMk4x6" target="_blank">San Justo, Buenos Aires</a></li>
                 <li><svg class="gitIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><<path d="M86.4 5.5L61.8 47.6C58 54.1 56 61.6 56 69.2V72c0 22.1 17.9 40 40 40s40-17.9 40-40V69.2c0-7.6-2-15-5.8-21.6L105.6 5.5C103.6 2.1 100 0 96 0s-7.6 2.1-9.6 5.5zm128 0L189.8 47.6c-3.8 6.5-5.8 14-5.8 21.6V72c0 22.1 17.9 40 40 40s40-17.9 40-40V69.2c0-7.6-2-15-5.8-21.6L233.6 5.5C231.6 2.1 228 0 224 0s-7.6 2.1-9.6 5.5zM317.8 47.6c-3.8 6.5-5.8 14-5.8 21.6V72c0 22.1 17.9 40 40 40s40-17.9 40-40V69.2c0-7.6-2-15-5.8-21.6L361.6 5.5C359.6 2.1 356 0 352 0s-7.6 2.1-9.6 5.5L317.8 47.6zM128 176c0-17.7-14.3-32-32-32s-32 14.3-32 32v48c-35.3 0-64 28.7-64 64v71c8.3 5.2 18.1 9 28.8 9c13.5 0 27.2-6.1 38.4-13.4c5.4-3.5 9.9-7.1 13-9.7c1.5-1.3 2.7-2.4 3.5-3.1c.4-.4 .7-.6 .8-.8l.1-.1 0 0 0 0s0 0 0 0s0 0 0 0c3.1-3.2 7.4-4.9 11.9-4.8s8.6 2.1 11.6 5.4l0 0 0 0 .1 .1c.1 .1 .4 .4 .7 .7c.7 .7 1.7 1.7 3.1 3c2.8 2.6 6.8 6.1 11.8 9.5c10.2 7.1 23 13.1 36.3 13.1s26.1-6 36.3-13.1c5-3.5 9-6.9 11.8-9.5c1.4-1.3 2.4-2.3 3.1-3c.3-.3 .6-.6 .7-.7l.1-.1c3-3.5 7.4-5.4 12-5.4s9 2 12 5.4l.1 .1c.1 .1 .4 .4 .7 .7c.7 .7 1.7 1.7 3.1 3c2.8 2.6 6.8 6.1 11.8 9.5c10.2 7.1 23 13.1 36.3 13.1s26.1-6 36.3-13.1c5-3.5 9-6.9 11.8-9.5c1.4-1.3 2.4-2.3 3.1-3c.3-.3 .6-.6 .7-.7l.1-.1c2.9-3.4 7.1-5.3 11.6-5.4s8.7 1.6 11.9 4.8l0 0 0 0 0 0 .1 .1c.2 .2 .4 .4 .8 .8c.8 .7 1.9 1.8 3.5 3.1c3.1 2.6 7.5 6.2 13 9.7c11.2 7.3 24.9 13.4 38.4 13.4c10.7 0 20.5-3.9 28.8-9V288c0-35.3-28.7-64-64-64V176c0-17.7-14.3-32-32-32s-32 14.3-32 32v48H256V176c0-17.7-14.3-32-32-32s-32 14.3-32 32v48H128V176zM448 394.6c-8.5 3.3-18.2 5.4-28.8 5.4c-22.5 0-42.4-9.9-55.8-18.6c-4.1-2.7-7.8-5.4-10.9-7.8c-2.8 2.4-6.1 5-9.8 7.5C329.8 390 310.6 400 288 400s-41.8-10-54.6-18.9c-3.5-2.4-6.7-4.9-9.4-7.2c-2.7 2.3-5.9 4.7-9.4 7.2C201.8 390 182.6 400 160 400s-41.8-10-54.6-18.9c-3.7-2.6-7-5.2-9.8-7.5c-3.1 2.4-6.8 5.1-10.9 7.8C71.2 390.1 51.3 400 28.8 400c-10.6 0-20.3-2.2-28.8-5.4V480c0 17.7 14.3 32 32 32H416c17.7 0 32-14.3 32-32V394.6z"/> </svg> 10/02/1997</li>
                 <li><svg class="gitIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/> </svg> <a href="mailto:alekoberstein@gmail.com" target="_blank"> alekoberstein@gmail.com</a></li>
@@ -64,9 +68,9 @@
                 <li><svg class="gitIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M512 80c8.8 0 16 7.2 16 16V416c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V96c0-8.8 7.2-16 16-16H512zM64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM208 256a64 64 0 1 0 0-128 64 64 0 1 0 0 128zm-32 32c-44.2 0-80 35.8-80 80c0 8.8 7.2 16 16 16H304c8.8 0 16-7.2 16-16c0-44.2-35.8-80-80-80H176zM376 144c-13.3 0-24 10.7-24 24s10.7 24 24 24h80c13.3 0 24-10.7 24-24s-10.7-24-24-24H376zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24h80c13.3 0 24-10.7 24-24s-10.7-24-24-24H376z"/> </svg> 20-39.312.287-1</li>
             </ul>
     
-            <h2>Tecnologías</h2>
+            <h2 class="title">Tecnologías</h2>
             
-            <ul>
+            <ul class="list hidden">
                 <li>Java</li>
                 <li>C# .Net</li>
                 <li>PHP</li>
@@ -79,26 +83,35 @@
                 <li>Bootstrap</li>
             </ul>
 
-            <h2>Idiomas</h2>
+            <h2 class="title">Idiomas</h2>
 
-            <ul>
+            <ul class="list hidden">
                 <li>Inglés: Básico y en formación</li>
                 
             </ul>    
 
         </div>
 
-        <div class="derecha">
+                    
+
+
+        <div class="derecha" id="derecha">
+
+            <button onclick="cambiarColor()">Activar modo nocturno</button>
+            <button onclick="colorDefecto()">Desactivar modo nocturno</button>
+
+            
+
             <h2>Experiencia Laboral</h2>
 
             <ul>
-                <h3 id="primerH3">
+                <h3 class="title">
                     <li>Nov 2023 | Actualidad: <a href="https://www.facebook.com/people/Playas-Doradas-Playa-Bonita/100063900851564/?modal=admin_todo_tour" target="_blank"> Playa Bonita</a>
                     <p></p>
                     Administrador de alquileres temporales</li>
                 </h3>
 
-                <ul>
+                <ul class="list hidden">
                     <li>Publicación de los complejos.</li>
                     <li>Respuesta a consultas.</li>
                     <li>Cobro de reservas y alquileres.</li>
@@ -111,13 +124,13 @@
             </ul>
 
             <ul>
-                <h3>
+                <h3 class="title">
                     <li>Abr 2021 | Ago 2022: <a href="https://practia.global/" target="_blank">Practia</a>
                     <p></p>
                     QA Tester Junior en <a href="https://www.arcosdorados.com/" target="_blank">Arcos Dorados</a></li>
                 </h3>
 
-                <ul>
+                <ul class="list hidden">
                     <li>Ejecución y diseño de casos de prueba.</li>
                     <li>Apertura y seguimiento de incidentes.</li>
                     <li>Análisis de requerimientos.</li>
@@ -129,14 +142,14 @@
             </ul>
 
             <ul>
-                <h3>
+                <h3 class="title">
                     <li>Ago 2018 | Abr 2021: <a href="https://cabify.com/ar" target="_blank">Cabify</a>
                         <p></p>
                         Chofer independiente; transporte privado de pasajeros
                     </li>
                 </h3>
 
-                <ul>
+                <ul class="list hidden">
                     <li>Elegir la ruta más óptima.</li>
                     <li>Transmitir seguridad y ofrecerle confort al cliente.</li>
                     <li>Mantenimiento mecánico del vehículo.</li>
@@ -146,13 +159,13 @@
             <h2>Formacón Académica</h2>
 
             <ul>
-                <h3>
-                <li>Jun 2021 | Actualidad: <a href="https://www.digitalhouse.com/ar" target="_blank">Digital House</a>
+                <h3 class="title">
+                <li >Jun 2021 | Actualidad: <a href="https://www.digitalhouse.com/ar" target="_blank">Digital House</a>
                     <p></p>
                     <a href="https://www.digitalhouse.com/ar/productos/programacion/certified-tech-developer" target="_blank"> Certified Tech Developer </a></li>
                 </h3>
                 
-                <ul>
+                <ul class="list hidden">
                     <li>Full Stack Dev Ssr, Analista de QA Jr, Analista de Bases de Datos Jr, Analista de Infraestructura de datos Jr. Certificado por Mercado Libre, Globant y Digital House</li>
                 </ul>
             </ul>
@@ -160,11 +173,11 @@
             <h2>Cursos & Capacitaciones</h2>
 
             <ul>
-                <h3>
+                <h3 class="title">
                     <li>Jun 2020 | Dic 2020: <a href="https://www.pescar.org.ar/?avada_portfolio=programacion-web" target="_blank">Fundación Pescar & J.P. Morgan</a></li>
                 </h3>
 
-                <ul>
+                <ul class="list hidden">
                     <li>Programador Web Full Stack certificado por 
                         <a href="https://www.educacionit.com/" target="_blank">EducaciónIT</a> y 
                         <a href="https://www.usal.edu.ar/" target="_blank">USAL.</a></li>
@@ -172,20 +185,20 @@
             </ul>
 
             <ul>
-                <h3>
+                <h3 class="title">
                     <li>Abr 2020 | Dic 2020: <a href="https://www.facebook.com/cursosgratuitos406?hc_ref=ARTdDm_RrIj6h90ZRbxjXpWDv1P94_5isrS1iYYj7crOfzarDYvdrFiHNg4mw-8WtyM&fref=nf&__xts__[0]=68.ARC1oIRJLL4qAg-YNo7auffsCCZIknEektaKBy8-Z25dIcMoqGSyKIt_Disk9nhM6iAGGrsWdFuCv61WYo9mME0XwkZHCCcL6VDdnRTs_K9lFZ4ZGHm8TNTdCdL4-BCbS5KoVoz7LzROSHb_xiZs4ARcxZtulqN89SE_2SsnqHyEsRBRIxU77mya-rike3QoU4ulwo0YQ_2pcj1VW09F-idLWd9XfkNyhPbuzh8yhERJp8Ni_RHvNoWnptRrp4hXsA41qKolg6V4w1JLoYPgFmLAbGlptVpt" target="_blank">Centro de Formación Profesional n°406</a></li>
                 </h3>
-                <ul>
+                <ul class="list hidden">
                     <li>Programador de Sistemas de Interfaces Gráficas en C# .NET certificado por el Ministerio de Educación.</li>
                 </ul>
             </ul>
 
             <ul>
-                <h3>
+                <h3 class="title">
                 <li>Mar 2020 | Dic 2020: <a href="https://cfp36caba.edu.ar/" target="_blank">Centro de Formación Profesional n°36</a></li>
                 </h3>
 
-                <ul>
+                <ul class="list hidden">
                     <li>Programador Java certificado por el Ministerio de Educación.</li>
                     
                 </ul>
@@ -198,6 +211,7 @@
     
 
     
-    
+    <script src="js/function.js"></script>
+
 </body>
 </html>
